@@ -1,6 +1,6 @@
 import Image from "next/image";
-import work from "../Assets/bg.png";
 import logo from "../Assets/Logo.png";
+import work from "../Assets/bg.png";
 
 const About = () => {
   return (

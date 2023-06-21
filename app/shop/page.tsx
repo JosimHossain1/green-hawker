@@ -1,6 +1,6 @@
 import category1 from "../../Assets/productImage/b1.jpg";
 import category2 from "../../Assets/productImage/b2.webp";
-import category3 from "../../assets/productImage/b3.webp";
+import category3 from "../../Assets/productImage/b3.webp";
 import category4 from "../../Assets/productImage/b4.jpg";
 
 import ShopProduct from "@/Components/ShopProduct";
