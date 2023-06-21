@@ -1,13 +1,14 @@
 import Image from "next/image";
-import logo from "../Assets/Logo.png";
+import work from "../Assets/bg.png";
+import logo from "../Assets/logo.png";
 
 const About = () => {
   return (
     <div className="bg-gray-100">
-      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl px-4 md:px-24 lg:px-8 pt-20 pb-16 flex justify-between items-center ">
+      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl px-4 md:px-24 lg:px-8 pt-20 pb-16 flex justify-between items-center md:space-x-10  ">
         {/* Image Side */}
         <div className="flex-1 hidden md:block">
-          <Image src={logo} alt="Logo" className="w-[400px]" />
+          <Image src={work} alt="Logo" className="w-full" />
         </div>
 
         {/* About Side */}
