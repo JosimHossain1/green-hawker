@@ -7,7 +7,7 @@ import WorkProcessCard from "./WorkProcessCard";
 const WorkProcess = () => {
   return (
     <div className="bg-gray-200">
-      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  py-14">
+      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl px-4 md:px-24 lg:px-8  py-14">
         {/* Work Proscess Title */}
         <div className=" flex flex-col items-center">
           <Image

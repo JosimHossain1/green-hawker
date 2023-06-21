@@ -41,8 +41,8 @@ const Team = () => {
                 loading="lazy"
               />
               <div>
-                <h4 className="text-xl font-semibold">Josim Hawladar</h4>
-                <span className="block text-sm text-gray-500">Co-Founder</span>
+                <h4 className="text-xl font-semibold">Maruf Hasan</h4>
+                <span className="block text-sm text-gray-500">Founder</span>
               </div>
             </div>
             <div className="space-y-4 text-center">
@@ -53,8 +53,8 @@ const Team = () => {
                 loading="lazy"
               />
               <div>
-                <h4 className="text-xl font-semibold">Josim Hawladar</h4>
-                <span className="block text-sm text-gray-500">Co-Founder</span>
+                <h4 className="text-xl font-semibold">Arefin</h4>
+                <span className="block text-sm text-gray-500">Manager</span>
               </div>
             </div>
           </div>
