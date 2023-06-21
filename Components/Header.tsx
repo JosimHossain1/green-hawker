@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Header = () => {
   return (
     <div
@@ -20,13 +21,20 @@ const Header = () => {
             We highly concern about all the environmental and personal safety
             precautions.
           </p>
-          <div className="flex items-center justify-center md:block">
+          <div className="flex items-center justify-center md:block space-x-3">
             <a
               href="/"
               className="h-12 px-6 inline-flex items-center justify-center font-semibold duration-200 rounded shadow-md text-white bg-green-500 hover:bg-white hover:text-green-500 mx-auto"
             >
-              Get started
+              Sell Waste paper & plastic
             </a>
+
+            <Link
+              href="/shop"
+              className="h-12 px-6 inline-flex items-center justify-center font-semibold duration-200 rounded shadow-md bg-white text-green-500 hover:text-white hover:bg-green-500 mx-auto"
+            >
+              Buy paper & plastic
+            </Link>
           </div>
         </div>
       </div>

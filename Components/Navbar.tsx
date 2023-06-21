@@ -14,6 +14,7 @@ const Navbar = () => {
 
   const menus = [
     { title: "Home", path: "/" },
+    { title: "Buy", path: "/shop" },
     { title: "Service", path: "/service" },
     { title: "Blog", path: "/blog" },
     { title: "About", path: "/about" },
