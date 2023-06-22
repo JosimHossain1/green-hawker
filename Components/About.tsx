@@ -23,7 +23,8 @@ const About = () => {
             About us
           </h3>
           <h1 className="text-xl font-bold  my-4 text-center md:text-left">
-            Green Hawker is the Leading E-waste Recycling company in Bangladesh.
+            Green Hawker is the Leading E-waste Recycling plartform in
+            Bangladesh.
           </h1>
           <p className="text-gray-500 text-[15px] text-center md:text-left">
             In addition to our commitment to environmental sustainability, Green
