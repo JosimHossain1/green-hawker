@@ -44,7 +44,7 @@ const Service = () => {
           <h4 className="text-[#209C5E] font-bold my-4 text-xl poppins">
             Paper E-waste Collection
           </h4>
-          <p>
+          <p className="text-gray-400">
             We are offering a great deal for you to sell your paper based waste.
             Only you have to register then our green hawkers will collect your
             paper based wastes.

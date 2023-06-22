@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "./shared/Button";
 const Header = () => {
   return (
     <div
@@ -22,18 +23,15 @@ const Header = () => {
             precautions.
           </p>
           <div className="flex items-center justify-center md:block space-x-3">
-            <a
-              href="/"
-              className="h-12 px-6 inline-flex items-center justify-center font-semibold duration-200 rounded shadow-md text-white bg-green-500 hover:bg-white hover:text-green-500 mx-auto"
-            >
-              Sell Waste paper & plastic
-            </a>
-
-            <Link
-              href="/shop"
-              className="h-12 px-6 inline-flex items-center justify-center font-semibold duration-200 rounded shadow-md bg-white text-green-500 hover:text-white hover:bg-green-500 mx-auto"
-            >
-              Buy paper & plastic
+            <Button
+              text="Sell Waste paper & plastic"
+              bg="text-white bg-green-500 hover:bg-white hover:text-green-500"
+            />
+            <Link href="/shop">
+              <Button
+                text="Buy paper & plastic"
+                bg="bg-white text-green-500 hover:text-white hover:bg-green-500"
+              />
             </Link>
           </div>
         </div>
