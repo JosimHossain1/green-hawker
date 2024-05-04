@@ -1,8 +1,8 @@
 import Image from "next/image";
-import member1 from "../Assets/team/member1.png";
+import botttomLine from "../Assets/bottomLine.png";
+import member1 from "../Assets/team/member1.jpg";
 import member2 from "../Assets/team/member2.jpg";
 import member3 from "../Assets/team/member3.png";
-import botttomLine from "../Assets/bottomLine.png";
 const Team = () => {
   return (
     <div>
@@ -24,7 +24,7 @@ const Team = () => {
             <div className="space-y-4 text-center">
               <Image
                 className="mx-auto object-cover rounded-xl w-64 h-[21rem]"
-                src={member1}
+                src={member3}
                 alt="woman"
                 loading="lazy"
               />
@@ -41,20 +41,20 @@ const Team = () => {
                 loading="lazy"
               />
               <div>
-                <h4 className="text-xl font-semibold">Maruf Hasan</h4>
+                <h4 className="text-xl font-semibold">Protim Mitra</h4>
                 <span className="block text-sm text-gray-500">Founder</span>
               </div>
             </div>
             <div className="space-y-4 text-center">
               <Image
                 className="mx-auto object-cover rounded-xl w-64 h-[21rem]"
-                src={member3}
+                src={member1}
                 alt="woman"
                 loading="lazy"
               />
               <div>
-                <h4 className="text-xl font-semibold">Arefin</h4>
-                <span className="block text-sm text-gray-500">Manager</span>
+                <h4 className="text-xl font-semibold">Abir Ullah</h4>
+                <span className="block text-sm text-gray-500">Project Supervisor</span>
               </div>
             </div>
           </div>
