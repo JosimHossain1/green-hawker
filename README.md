@@ -16,10 +16,10 @@ Use of Technologies :
 First, open your terminal:
 
 ```bash
-git clone 
+git clone https://github.com/JosimHossain1/green-hawker.git
 ```
 
-Install all dependscies
+Install all dependencies
 ```bash
 npm install
 ```
